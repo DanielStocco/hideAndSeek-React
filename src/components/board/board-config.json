@@ -9,7 +9,7 @@
     { "type": "free-zone" },
     { "type": "free-zone" },
     { "type": "free-zone" },
-    { "type": "free-zone end-row" }
+    { "type": "free-zone" }
   ],
   [
     { "type": "free-zone" },
@@ -21,7 +21,7 @@
     { "type": "free-zone", "walls": { "bottom": true } },
     { "type": "free-zone", "walls": { "right":  true, "bottom": true } },
     { "type": "free-zone", "walls": { "left":  true, "bottom": true } },
-    { "type": "free-zone end-row" }
+    { "type": "free-zone" }
   ],
   [
     { "type": "regular" },
@@ -33,7 +33,7 @@
     { "type": "regular", "walls": { "top": true } },
     { "type": "regular", "walls": { "right":  true, "top": true } },
     { "type": "regular", "walls": { "left":  true, "top": true } },
-    { "type": "regular end-row" }
+    { "type": "regular" }
   ],
   [
     { "type": "regular", "walls": { "bottom":  true } },
@@ -45,7 +45,7 @@
     { "type": "regular" },
     { "type": "regular" },
     { "type": "regular" },
-    { "type": "regular end-row", "walls": { "bottom":  true } }
+    { "type": "regular", "walls": { "bottom":  true } }
   ],
   [
     { "type": "regular", "walls": { "top":  true } },
@@ -57,7 +57,7 @@
     { "type": "regular", "walls": { "right":  true } },
     { "type": "regular", "walls": { "left":  true, "bottom": true } },
     { "type": "regular" },
-    { "type": "regular end-row", "walls": { "top":  true } }
+    { "type": "regular", "walls": { "top":  true } }
   ],
   [
     { "type": "regular" },
@@ -69,7 +69,7 @@
     { "type": "regular" },
     { "type": "regular", "walls": { "top": true } },
     { "type": "regular" },
-    { "type": "regular end-row" }
+    { "type": "regular" }
   ],
   [
     { "type": "regular" },
@@ -81,7 +81,7 @@
     { "type": "regular", "walls": { "bottom": true } },
     { "type": "regular" },
     { "type": "regular", "walls": { "bottom": true } },
-    { "type": "regular end-row" }
+    { "type": "regular" }
   ],
   [
     { "type": "regular" },
@@ -93,7 +93,7 @@
     { "type": "regular", "walls": { "top": true, "right": true } },
     { "type": "regular", "walls": { "left": true } },
     { "type": "regular", "walls": { "top": true } },
-    { "type": "regular end-row" }
+    { "type": "regular" }
   ],
   [
     { "type": "regular", "walls": { "bottom": true } },
@@ -105,7 +105,7 @@
     { "type": "regular" },
     { "type": "regular" },
     { "type": "regular" },
-    { "type": "regular end-row", "walls": { "bottom": true } }
+    { "type": "regular", "walls": { "bottom": true } }
   ],
   [
     { "type": "regular", "walls": { "top": true } },
@@ -117,26 +117,26 @@
     { "type": "regular", "walls": { "bottom": true } },
     { "type": "regular" },
     { "type": "regular" },
-    { "type": "regular end-row", "walls": { "top": true } }
+    { "type": "regular", "walls": { "top": true } }
   ],
   [
-    { "type": "start-zone end-column" },
-    { "type": "start-zone end-column" },
-    { "type": "start-zone end-column" },
-    { "type": "restricted end-column", "walls": { "top": true } },
+    { "type": "start-zone" },
+    { "type": "start-zone" },
+    { "type": "start-zone" },
     { "type": "restricted", "walls": { "top": true } },
     { "type": "restricted", "walls": { "top": true } },
-    { "type": "restricted end-column", "walls": { "top": true } },
-    { "type": "start-zone end-column" },
-    { "type": "start-zone end-column" },
-    { "type": "start-zone end-row end-column" }
+    { "type": "restricted", "walls": { "top": true } },
+    { "type": "restricted", "walls": { "top": true } },
+    { "type": "start-zone" },
+    { "type": "start-zone" },
+    { "type": "start-zone" }
   ],
   [
     { "type": "no-square" },
     { "type": "no-square" },
     { "type": "no-square" },
     { "type": "no-square" },
-    { "type": "regular end-column" },
-    { "type": "regular end-column end-row" }
+    { "type": "regular" },
+    { "type": "regular" }
   ]
 ]

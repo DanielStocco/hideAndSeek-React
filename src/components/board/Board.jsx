@@ -11,12 +11,10 @@ const Board = (props) => {
     return row.map((square, index) => {
       const position = { row: rowIndex, column: index };
       return (
-        <Fragment key={JSON.stringify(position)}>
-          <Grid.Column className="square-container">
-            <Square type={square.type}
-                    walls={square.walls}
-                    position={position}/>
-          </Grid.Column>
+        <Fragment key={JSON.stringify(position)} >
+          <Square type={square.type}
+                  walls={square.walls}
+                  position={position}/>
         </Fragment>
       )
     })
@@ -25,9 +23,9 @@ const Board = (props) => {
   const drawBord = () => {
     return squares.map((row, index) => {
       return (
-        <Grid key={index}>
+        <div className="square-container" key={index}>
           {drawSquare(row, index) }
-        </Grid>
+        </div>
       )
     })
   };

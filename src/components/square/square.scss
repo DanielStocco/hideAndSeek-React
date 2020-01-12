@@ -1,14 +1,14 @@
 @import "../../sass/main";
 .square {
+    margin-right: 0 !important;
+    padding: 0 !important;
     height: 50px;
     width: 50px;
-    border-left: solid $borderColor 1px;
-    border-top: solid $borderColor 1px;
+    border: solid $borderColor 1px;
 }
 .no-square{
     background-color: white;
-    border-left: none;
-    border-top: none;
+    border: none;
 }
 .regular {
     background-color: $backgroundColor;
@@ -23,25 +23,18 @@
 .start-zone {
     background-color: $start-zone;
 }
-.end-row {
-    border-right: solid $borderColor 1px;
-}
-
-.end-column {
-    border-bottom: solid $borderColor 1px;
-}
 
 .wall-top {
     border-top: solid black 2px!important;
 }
 .wall-left {
-    border-left: solid black 4px!important;
+    border-left: solid black 2px!important;
 }
 .wall-bottom {
     border-bottom: solid black 2px!important;
 }
 .wall-right {
-    border-right: solid black 4px!important;
+    border-right: solid black 2px!important;
 }
 
 
