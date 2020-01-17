@@ -1,0 +1,22 @@
+@import "../../sass/main";
+
+.checker{
+  top:10px;
+  left:10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  //position: absolute;
+  border: 4px solid $grayColor;
+  cursor: pointer;
+}
+
+.hunter_checker {
+  background: $darkestBlue;
+}
+.runner_checker {
+  background: $secondaryColor;
+}
+
+
+

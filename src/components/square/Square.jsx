@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import Checker from '../checker/Checker';
+
 import './square.scss'
 
 const Square = ({ type, position, walls }) => {
 
+  const [hasChecker, setHasChecker] = useState(false);
+
   const onSquareClick = () => {
+    setHasChecker(!hasChecker);
     console.log(walls);
     console.log(position);
+  };
+
+  const drawChecker = () => {
+    if(hasChecker) return <Checker/>
   };
 
   const buildSquareStyle = () => {
@@ -18,7 +28,11 @@ const Square = ({ type, position, walls }) => {
     className = walls.right ? `${className} wall-right` : className;
     return className
   };
-  return <div onClick={onSquareClick} className={buildSquareStyle()}/>
+  return (
+    <div onClick={onSquareClick} className={buildSquareStyle()}>
+      { drawChecker() }
+    </div>
+  );
 };
 
 export default Square;

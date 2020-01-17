@@ -1,7 +1,7 @@
 @import "../../sass/main";
 .square {
     margin-right: 0 !important;
-    padding: 0 !important;
+    padding: 4px !important;
     height: 50px;
     width: 50px;
     border: solid $borderColor 1px;
@@ -36,8 +36,4 @@
 .wall-right {
     border-right: solid black 2px!important;
 }
-
-
-
-
 
