@@ -1,9 +1,9 @@
 import React from 'react';
 import './checker.scss';
 
-const Checker = () => {
+const Checker = ({ checkerColor }) => {
   return(
-    <div className="checker runner_checker" />
+    <div className="checker" style={{backgroundColor: checkerColor}} />
   )
 };
 
